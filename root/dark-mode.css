@@ -1,0 +1,35 @@
+#modeBtn {
+    position: absolute;
+    top: 32px;
+    left: 40px;
+}
+
+body.dark-mode {
+    background-image: url(./imgs/night-bg.jpg);
+}
+
+body.dark-mode .site {
+    background-color: rgba(19, 19, 19, 0.6);
+}
+
+body.dark-mode .site section h1 {
+    background-color: #0645ad;
+    border-color: #0a182e;
+}
+
+body.dark-mode .site section > div,
+body.dark-mode .download-sec {
+    background-color: rgba(19, 19, 19, 8);
+    border-color: #0a182e;
+}
+
+body.dark-mode section p,
+body.dark-mode .download-sec p {
+    color: white;
+}
+
+body.dark-mode .download-sec p,
+body.dark-mode .download-sec h1,
+body.dark-mode .download-sec a {
+    color: white;
+}
